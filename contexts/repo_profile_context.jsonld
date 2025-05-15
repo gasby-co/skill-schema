@@ -1,0 +1,19 @@
+{
+  "@context": {
+    "description": "https://gasby-co.github.io/skill-schema/contexts/repo_profile_context#description",
+    "tech_stack": "https://gasby-co.github.io/skill-schema/contexts/repo_profile_context#tech_stack",
+    "contribution_prerequisites": {
+      "@id": "https://gasby-co.github.io/skill-schema/contexts/repo_profile_context#contribution_prerequisites",
+      "@container": "@list"
+    },
+    "requirement": "https://gasby-co.github.io/skill-schema/contexts/repo_profile_context#requirement",
+    "key_skills": {
+      "@id": "https://gasby-co.github.io/skill-schema/contexts/repo_profile_context#key_skills",
+      "@container": "@list"
+    },
+    "skill": "https://gasby-co.github.io/skill-schema/contexts/repo_profile_context#skill",
+    "importance": "https://gasby-co.github.io/skill-schema/contexts/repo_profile_context#importance",
+    "context": "https://gasby-co.github.io/skill-schema/contexts/repo_profile_context#context",
+    "domain_knowledge": "https://gasby-co.github.io/skill-schema/contexts/repo_profile_context#domain_knowledge"
+  }
+} 

@@ -20,6 +20,15 @@ or for code classification:
 }
 ```
 
+or for repository context:
+
+```json
+{
+  "@context": "../contexts/repo_profile_context.jsonld",
+  ...
+}
+```
+
 ## 2. Validating Your Data
 
 Use the JSON Schema files in `/schemas/` to validate your data for correctness. You can use tools like [ajv](https://ajv.js.org/), [jsonschema](https://python-jsonschema.readthedocs.io/en/stable/), or online validators.
@@ -38,15 +47,26 @@ with open('schemas/skill_profile.schema.json') as f:
 jsonschema.validate(instance=data, schema=schema)
 ```
 
+For repository context:
+
+```python
+with open('examples/repo_profile_example.json') as f:
+    data = json.load(f)
+with open('schemas/repo_profile.schema.json') as f:
+    schema = json.load(f)
+
+jsonschema.validate(instance=data, schema=schema)
+```
+
 ## 3. Using and Extending Vocabularies
 
-- All enum-like fields (e.g., `type`, `scope`, `code_type`, `system_layer`) are defined in `/vocab/` as JSON-LD files.
+- All enum-like fields (e.g., `type`, `scope`, `code_type`, `system_layer`, `importance`) are defined in `/vocab/` as JSON-LD files where applicable.
 - You may extend these vocabularies by adding new entries, but try to keep them MECE (mutually exclusive, collectively exhaustive).
 - If you add new values, update both the vocab file and the corresponding JSON Schema if you want strict validation.
 
 ## 4. Example Data
 
-See `/examples/` for sample JSON-LD files for both skill profiles and code classification.
+See `/examples/` for sample JSON-LD files for skill profiles, code classification, and repository context.
 
 ## 5. Contributing
 
