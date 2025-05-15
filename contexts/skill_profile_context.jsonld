@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "name": "https://gasby-co.github.io/skill-schema/contexts/skill_profile_context#name",
+    "type": {
+      "@id": "https://gasby-co.github.io/skill-schema/contexts/skill_profile_context#type",
+      "@type": "@vocab"
+    },
+    "scope": {
+      "@id": "https://gasby-co.github.io/skill-schema/contexts/skill_profile_context#scope",
+      "@type": "@vocab"
+    },
+    "family": "https://gasby-co.github.io/skill-schema/contexts/skill_profile_context#family",
+    "frequency": "https://gasby-co.github.io/skill-schema/contexts/skill_profile_context#frequency",
+    "unit": "https://gasby-co.github.io/skill-schema/contexts/skill_profile_context#unit",
+    "confidence": "https://gasby-co.github.io/skill-schema/contexts/skill_profile_context#confidence",
+    "evidence": "https://gasby-co.github.io/skill-schema/contexts/skill_profile_context#evidence"
+  }
+} 

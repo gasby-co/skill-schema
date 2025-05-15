@@ -1,0 +1,56 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "RepositoryContext",
+  "type": "object",
+  "properties": {
+    "description": {
+      "type": "string",
+      "description": "One-line description of the repository"
+    },
+    "tech_stack": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Main technologies, languages, frameworks used"
+    },
+    "contribution_prerequisites": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "requirement": { "type": "string" },
+          "description": { "type": "string" }
+        },
+        "required": ["requirement", "description"]
+      },
+      "description": "Prerequisites for contributing (environment setup, knowledge requirements)"
+    },
+    "key_skills": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "skill": { "type": "string" },
+          "importance": {
+            "type": "string",
+            "enum": ["critical", "high", "medium", "nice-to-have"]
+          },
+          "context": { "type": "string" }
+        },
+        "required": ["skill", "importance"]
+      },
+      "description": "Key technical areas and skills needed to contribute effectively"
+    },
+    "domain_knowledge": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Specific domain expertise that would be valuable"
+    }
+  },
+  "required": [
+    "description",
+    "tech_stack",
+    "contribution_prerequisites",
+    "key_skills",
+    "domain_knowledge"
+  ]
+} 

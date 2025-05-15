@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "value": "https://gasby-co.github.io/skill-schema/vocab/code_type#value",
+    "description": "https://gasby-co.github.io/skill-schema/vocab/code_type#description"
+  },
+  "@graph": [
+    { "value": "business_logic", "description": "Core business rules, domain logic, and application-specific workflows." },
+    { "value": "application_glue", "description": "Code that orchestrates, routes, or connects components and services." },
+    { "value": "abstractions_frameworks", "description": "Design systems, middleware, shared libraries, and reusable abstractions." },
+    { "value": "integration", "description": "Code for connecting with external systems, APIs, or services." },
+    { "value": "infrastructure", "description": "Infrastructure-as-code, configuration, deployment, and environment setup." },
+    { "value": "testing_observability", "description": "Tests, monitoring, metrics, and observability tooling." },
+    { "value": "documentation", "description": "Documentation, guides, and onboarding materials." },
+    { "value": "scaffolding_setup", "description": "Boilerplate, code generation, and project setup scripts." },
+    { "value": "security", "description": "Security-related code, authentication, authorization, and vulnerability mitigation." }
+  ]
+} 

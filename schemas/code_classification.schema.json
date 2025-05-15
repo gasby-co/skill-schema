@@ -1,0 +1,26 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CodeClassification",
+  "type": "object",
+  "properties": {
+    "@context": { "type": ["string", "object"] },
+    "code_classification": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "code_type": { "type": "string", "enum": [
+            "business_logic", "application_glue", "abstractions_frameworks", "integration", "infrastructure", "testing_observability", "documentation", "scaffolding_setup", "security"
+          ] },
+          "system_layer": { "type": "string", "enum": [
+            "frontend", "backend", "infra", "data", "devops", "shared"
+          ] },
+          "file_path": { "type": "string" },
+          "evidence": { "type": "string" }
+        },
+        "required": ["code_type", "system_layer", "file_path", "evidence"]
+      }
+    }
+  },
+  "required": ["@context", "code_classification"]
+} 

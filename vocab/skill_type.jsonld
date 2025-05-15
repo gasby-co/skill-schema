@@ -1,0 +1,12 @@
+{
+  "@context": {
+    "value": "https://gasby-co.github.io/skill-schema/vocab/skill_type#value",
+    "description": "https://gasby-co.github.io/skill-schema/vocab/skill_type#description"
+  },
+  "@graph": [
+    { "value": "technical", "description": "Skills related to technology, programming, tools, and frameworks." },
+    { "value": "cognitive", "description": "Skills involving thinking, reasoning, abstraction, and problem-solving." },
+    { "value": "behavioral", "description": "Skills related to communication, collaboration, and work style." },
+    { "value": "contextual", "description": "Skills involving domain knowledge, industry rules, or situational awareness." }
+  ]
+} 

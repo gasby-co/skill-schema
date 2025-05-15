@@ -1,0 +1,17 @@
+{
+  "@context": "https://gasby-co.github.io/skill-schema/contexts/code_classification_context.jsonld",
+  "code_classification": [
+    {
+      "code_type": "business_logic",
+      "system_layer": "backend",
+      "file_path": "src/payment/checkout.js",
+      "evidence": "Implements checkout business logic in backend service."
+    },
+    {
+      "code_type": "security",
+      "system_layer": "shared",
+      "file_path": "src/auth/jwt_utils.py",
+      "evidence": "Provides JWT token validation and role-based access control used across services."
+    }
+  ]
+} 

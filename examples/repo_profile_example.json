@@ -1,0 +1,36 @@
+{
+  "description": "A modern, open standard for representing developer skills and code classification.",
+  "tech_stack": ["Python", "JSON-LD", "Terraform"],
+  "contribution_prerequisites": [
+    {
+      "requirement": "Python 3.8+",
+      "description": "Required for running validation scripts and tooling."
+    },
+    {
+      "requirement": "Familiarity with JSON Schema",
+      "description": "Needed for understanding and extending validation logic."
+    }
+  ],
+  "key_skills": [
+    {
+      "skill": "JSON Schema",
+      "importance": "critical",
+      "context": "Used for validating skill and code classification profiles."
+    },
+    {
+      "skill": "Open Standards",
+      "importance": "high",
+      "context": "Project is designed for interoperability and extensibility."
+    },
+    {
+      "skill": "Python Scripting",
+      "importance": "medium",
+      "context": "Scripts are used for validation and automation."
+    }
+  ],
+  "domain_knowledge": [
+    "Developer Tooling",
+    "Open Standards",
+    "Code Classification"
+  ]
+} 
