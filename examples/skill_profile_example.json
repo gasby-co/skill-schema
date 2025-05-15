@@ -1,0 +1,25 @@
+{
+  "@context": "https://gasby-co.github.io/skill-schema/contexts/skill_profile_context.jsonld",
+  "skill_profile": [
+    {
+      "name": "Terraform on AWS",
+      "type": "technical",
+      "scope": "specialized",
+      "family": "DevOps",
+      "frequency": 3,
+      "unit": "modules",
+      "confidence": 0.9,
+      "evidence": "Implemented and maintained 3 Terraform modules for AWS infrastructure provisioning across multiple PRs."
+    },
+    {
+      "name": "Critical thinking",
+      "type": "cognitive",
+      "scope": "general",
+      "family": "Problem Solving",
+      "frequency": 5,
+      "unit": "features",
+      "confidence": 0.8,
+      "evidence": "Demonstrated in design discussions and code reviews across several projects."
+    }
+  ]
+} 

@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "value": "https://gasby-co.github.io/skill-schema/vocab/system_layer#value",
+    "description": "https://gasby-co.github.io/skill-schema/vocab/system_layer#description"
+  },
+  "@graph": [
+    { "value": "frontend", "description": "User interface and client-side code." },
+    { "value": "backend", "description": "Server-side logic, APIs, and business services." },
+    { "value": "infra", "description": "Infrastructure, networking, and environment configuration." },
+    { "value": "data", "description": "Data processing, storage, analytics, and pipelines." },
+    { "value": "devops", "description": "CI/CD, deployment, monitoring, and operational tooling." },
+    { "value": "shared", "description": "Cross-cutting libraries, utilities, and shared modules." }
+  ]
+} 
