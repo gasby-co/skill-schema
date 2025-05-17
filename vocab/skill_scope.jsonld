@@ -1,10 +1,10 @@
 {
   "@context": {
-    "value": "https://gasby-co.github.io/skill-schema/vocab/skill_scope#value",
-    "description": "https://gasby-co.github.io/skill-schema/vocab/skill_scope#description"
+    "value": "https://schema.gasby.co/vocab/skill_scope#value",
+    "description": "https://schema.gasby.co/vocab/skill_scope#description"
   },
   "@graph": [
     { "value": "general", "description": "Broadly applicable skills across many domains or technologies." },
     { "value": "specialized", "description": "Skills specific to a particular technology, domain, or context." }
   ]
-} 
+}

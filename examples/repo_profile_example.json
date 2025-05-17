@@ -1,4 +1,5 @@
 {
+  "@context": "https://schema.gasby.co/contexts/repo_profile_context.jsonld",
   "description": "A modern, open standard for representing developer skills and code classification.",
   "tech_stack": ["Python", "JSON-LD", "Terraform"],
   "contribution_prerequisites": [
@@ -33,4 +34,4 @@
     "Open Standards",
     "Code Classification"
   ]
-} 
+}

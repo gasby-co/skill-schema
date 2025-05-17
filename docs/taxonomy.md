@@ -48,4 +48,4 @@ Code is classified along two axes:
 ## Extensibility
 
 - All vocabularies are open for extension. You may add new types or layers as your use case evolves.
-- For more details, see the vocab files in `/vocab/`. 
+- For more details, see the vocab files in `/vocab/`. The canonical base URL for schemas and contexts is `https://schema.gasby.co`.

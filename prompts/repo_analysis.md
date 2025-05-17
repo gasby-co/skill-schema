@@ -7,4 +7,4 @@ Analyze this repository README to extract critical information about:
 
 Focus on technical details, programming languages, frameworks, architectural patterns, and specific domain knowledge that would be relevant for understanding PRs in this repository.
 
-Return a concise repository profile in JSON format, matching the schema in `/schemas/`. 
+Return a concise repository profile in JSON format, matching the schema at `https://schema.gasby.co/schemas/repo_profile.schema.json`. The context for this schema is `https://schema.gasby.co/contexts/repo_profile_context.jsonld`.

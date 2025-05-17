@@ -11,4 +11,6 @@ For each PR, extract:
 
 Classify the code using the MECE code type and system layer taxonomy. Identify and classify skills using the MECE skill taxonomy.
 
-Return a structured JSON object matching the schemas in `/schemas/`. 
+Return a structured JSON object.
+- For skill profiles, use the schema at `https://schema.gasby.co/schemas/skill_profile.schema.json` with context `https://schema.gasby.co/contexts/skill_profile_context.jsonld`.
+- For code classification, use the schema at `https://schema.gasby.co/schemas/code_classification.schema.json` with context `https://schema.gasby.co/contexts/code_classification_context.jsonld`.

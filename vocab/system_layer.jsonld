@@ -1,7 +1,7 @@
 {
   "@context": {
-    "value": "https://gasby-co.github.io/skill-schema/vocab/system_layer#value",
-    "description": "https://gasby-co.github.io/skill-schema/vocab/system_layer#description"
+    "value": "https://schema.gasby.co/vocab/system_layer#value",
+    "description": "https://schema.gasby.co/vocab/system_layer#description"
   },
   "@graph": [
     { "value": "frontend", "description": "User interface and client-side code." },
@@ -11,4 +11,4 @@
     { "value": "devops", "description": "CI/CD, deployment, monitoring, and operational tooling." },
     { "value": "shared", "description": "Cross-cutting libraries, utilities, and shared modules." }
   ]
-} 
+}

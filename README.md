@@ -16,7 +16,7 @@ A modern, open standard for representing developer skills and code classificatio
 1. **Reference the context in your JSON-LD:**
    ```json
    {
-     "@context": "contexts/skill_profile_context.jsonld",
+     "@context": "https://schema.gasby.co/contexts/skill_profile_context.jsonld",
      ...
    }
    ```
@@ -55,4 +55,4 @@ A modern, open standard for representing developer skills and code classificatio
 
 ## Questions?
 
-See `/docs/usage.md` and `/docs/taxonomy.md`, or open an issue. 
+See `/docs/usage.md` and `/docs/taxonomy.md`, or open an issue. The canonical base URL for schemas and contexts is `https://schema.gasby.co`.

@@ -1,5 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://schema.gasby.co/schemas/repo_profile.schema.json",
   "title": "RepositoryContext",
   "type": "object",
   "properties": {
@@ -53,4 +54,4 @@
     "key_skills",
     "domain_knowledge"
   ]
-} 
+}

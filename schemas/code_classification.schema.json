@@ -1,5 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://schema.gasby.co/schemas/code_classification.schema.json",
   "title": "CodeClassification",
   "type": "object",
   "properties": {
@@ -23,4 +24,4 @@
     }
   },
   "required": ["@context", "code_classification"]
-} 
+}

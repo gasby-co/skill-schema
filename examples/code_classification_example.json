@@ -1,5 +1,5 @@
 {
-  "@context": "https://gasby-co.github.io/skill-schema/contexts/code_classification_context.jsonld",
+  "@context": "https://schema.gasby.co/contexts/code_classification_context.jsonld",
   "code_classification": [
     {
       "code_type": "business_logic",
@@ -14,4 +14,4 @@
       "evidence": "Provides JWT token validation and role-based access control used across services."
     }
   ]
-} 
+}

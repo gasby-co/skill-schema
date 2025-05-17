@@ -1,14 +1,14 @@
 {
   "@context": {
     "code_type": {
-      "@id": "https://gasby-co.github.io/skill-schema/contexts/code_classification_context#code_type",
+      "@id": "https://schema.gasby.co/contexts/code_classification_context#code_type",
       "@type": "@vocab"
     },
     "system_layer": {
-      "@id": "https://gasby-co.github.io/skill-schema/contexts/code_classification_context#system_layer",
+      "@id": "https://schema.gasby.co/contexts/code_classification_context#system_layer",
       "@type": "@vocab"
     },
-    "file_path": "https://gasby-co.github.io/skill-schema/contexts/code_classification_context#file_path",
-    "evidence": "https://gasby-co.github.io/skill-schema/contexts/code_classification_context#evidence"
+    "file_path": "https://schema.gasby.co/contexts/code_classification_context#file_path",
+    "evidence": "https://schema.gasby.co/contexts/code_classification_context#evidence"
   }
-} 
+}

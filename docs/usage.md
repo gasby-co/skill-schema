@@ -6,7 +6,7 @@ To make your data self-describing and interoperable, always include the appropri
 
 ```json
 {
-  "@context": "../contexts/skill_profile_context.jsonld",
+  "@context": "https://schema.gasby.co/contexts/skill_profile_context.jsonld",
   ...
 }
 ```
@@ -15,7 +15,7 @@ or for code classification:
 
 ```json
 {
-  "@context": "../contexts/code_classification_context.jsonld",
+  "@context": "https://schema.gasby.co/contexts/code_classification_context.jsonld",
   ...
 }
 ```
@@ -24,7 +24,7 @@ or for repository context:
 
 ```json
 {
-  "@context": "../contexts/repo_profile_context.jsonld",
+  "@context": "https://schema.gasby.co/contexts/repo_profile_context.jsonld",
   ...
 }
 ```
@@ -75,4 +75,4 @@ See `/examples/` for sample JSON-LD files for skill profiles, code classificatio
 
 ## 6. Questions?
 
-See `/docs/taxonomy.md` for definitions, or open an issue in the repo. 
+See `/docs/taxonomy.md` for definitions, or open an issue in the repo. The canonical base URL for schemas and contexts is `https://schema.gasby.co`.

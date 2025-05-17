@@ -1,5 +1,5 @@
 {
-  "@context": "https://gasby-co.github.io/skill-schema/contexts/skill_profile_context.jsonld",
+  "@context": "https://schema.gasby.co/contexts/skill_profile_context.jsonld",
   "skill_profile": [
     {
       "name": "Terraform on AWS",
@@ -22,4 +22,4 @@
       "evidence": "Demonstrated in design discussions and code reviews across several projects."
     }
   ]
-} 
+}
