@@ -1,4 +1,4 @@
-# Gasby Skill Schema
+# skillsync engineering skill schema
 
 A modern, open standard for representing developer skills and code classification, designed for interoperability, extensibility, and use with JSON-LD.
 
